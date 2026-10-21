@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Parallax III</title>
+  <meta name="description" content="Parallax III builds Chronicle for investigators, journalists, and accountability organisations working with open-source information.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand-mark" href="index.html">
+        <img src="assets/logo.svg" alt="">
+        <span>PARALLAX III</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="page">
+      <hr class="accent-rule">
+      <h1 class="page-title">About</h1>
+      <p class="page-intro">Parallax III builds tools for people who collect, analyse, and report on open-source information.</p>
+
+      <div class="prose">
+        <p>  By combining practitioner experience with best practice guidance, we seek to remove complexity and enhance productivity by developing tools that are powerful, flexible, and intuitive. 
+        </p>
+        <p>
+          Utilising digital forensics, open source investigations, and visual analysis techniques, Parallax III is  creating a unified working environment that helps you to move your investigations forward. 
+        </p>
+        <p>
+        Parallax III is led by <strong>Tom Rawicz-Szczerbo</strong> whose experience in digital forensics, open source investigations, and system design shapes the products we create. 
+        </p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Parallax III</span>
+    <a href="contact.html">Contact</a>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parallax III</title>
+  <meta name="description" content="Parallax III builds Chronicle — a unified workspace for open-source information collection, analysis, and reporting.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand-mark" href="index.html">
+        <img src="assets/logo.svg" alt="">
+        <span>PARALLAX III</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__copy">
+        <h1 class="hero__brand">PARALLAX III</h1>
+        <p class="hero__lead">We build tools for justice, accountability, & fact finding missions.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="about.html">About us</a>
+          <a class="btn btn--ghost" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <img src="assets/logo.svg" alt="Parallax III mark">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Parallax III</span>
+    <span>Open-source investigation software</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
